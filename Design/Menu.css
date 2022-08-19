@@ -1,0 +1,100 @@
+.menu{
+    position : sticky;
+    overflow : hidden;
+    background-color : white;
+    top : 0;
+    left : 0;
+    border-bottom : 2px solid black;
+    width : 100%;
+    height : 45px;
+    transition : height 1s;
+    z-index : 1;
+}
+
+.btn1:enabled{
+    background-color : white;
+    margin : 2.5px 0px 0px 10px;
+    font-family : calibri;
+    color : black;
+    font-weight : bold;
+    font-size : 22.5px;
+    border : none;
+    border-bottom : 5px solid rgb(175, 175, 175);
+    padding-bottom : 2.5px;
+    width : 100px;
+    letter-spacing : 1.5px;
+    transition : border-bottom 0.75s;
+}
+
+.btn1:disabled{
+    background-color : white;
+    margin : 2.5px 0px 0px 10px;
+    font-family : calibri;
+    color : black;
+    font-weight : bold;
+    font-size : 22.5px;
+    border : none;
+    border-bottom : 5px solid rgb(30, 30, 30);
+    padding-bottom : 2.5px;
+    width : 100px;
+    letter-spacing : 1.5px;
+    transition : border-bottom 0.75s;
+}
+
+.btn1:enabled:hover{
+    border-bottom : 5px solid rgb(90, 90, 90);
+}
+
+.icon{
+    position : absolute;
+    border-radius : 50%;
+    overflow : hidden;
+    width : 40px;
+    height : 40px;
+    margin : 2.5px 7.5px 0px 0px;
+    right : 0;
+    transition : box-shadow 0.5s;
+}
+
+.icon:hover{
+    box-shadow : 1px 1px 2px grey;
+}
+
+.slider{
+    position : fixed;
+    margin-top : -30px;
+    z-index : 0;
+    width : 100%;
+    margin-left : auto;
+    margin-right : auto;
+    text-align : center;
+    transition : margin-top 1s;
+}
+
+.btn2{
+    width : 60px;
+    height : 45px;
+    border-radius : 0px 0px 17.5px 17.5px;
+    border : 1px solid rgb(125, 125, 125);
+    font-family : calibri;
+    font-size : 32.5px;
+    font-weight : bold;
+    transition : box-shadow 0.5s, background-color 0.5s;
+}
+
+.btn2:hover{
+    box-shadow : 1px 1px 3px grey;
+}
+
+.btn2:active{
+    background-color : rgb(100, 100, 100);
+}
+
+@media screen and (max-width : 550px){
+    .btn1:enabled, .btn1:disabled{
+        width : 75px;
+        font-size : 20px;
+        margin : 5px 0px 0px 10px;
+        letter-spacing : 1px;
+    }
+}

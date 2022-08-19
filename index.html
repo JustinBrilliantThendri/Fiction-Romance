@@ -1,0 +1,199 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Fiction Romance</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="icon" href="Image/Icon/PP.jpg" type="image/x-icon">
+        <link rel="stylesheet" href="Design/Container.css">
+        <link rel="stylesheet" href="Design/Menu.css">
+        <link rel="stylesheet" href="Design/Main.css">
+        <link rel="stylesheet" href="Design/About.css">
+        <script src="Script/Slider.js"></script>
+        <script src="Script/Switch.js"></script>
+        <script src="Script/Switch_2.js"></script>
+        <script src="Script/Color.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="menu">
+                <button class="btn1" type="button" onclick="to_main()" disabled>Main</button>
+                <button class="btn1" type="button" onclick="to_about()">About</button>
+                <span class="icon">
+                    <img src="Image/Icon/PP.jpg" width="40" height="40">
+                </span>
+            </div>
+            <span class="slider">
+                <button class="btn2" type="button" onclick="slider()">&#752;</button>
+            </span>
+            <div class="main">
+                <div class="eps">
+                    <table>
+                        <tr>
+                            <td>
+                                <button class="btn3" type="button" onclick="p_eps()" disabled>&#x2190;</button>
+                            </td>
+                            <td class="center">
+                                <h1 id="title">Introduction</h1>
+                            </td>
+                            <td>
+                                <button class="btn3" type="button" onclick="n_eps()">&#x2192;</button>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="page">
+                    <table>
+                        <tr>
+                            <td class="leftright">
+                                <button class="btn3" type="button" onclick="p_page()" disabled>&#x2190;</button>
+                            </td>
+                            <td>
+                                <img class="image" src="Image/Introductions/1.jpg" style="display:inline-block;">
+                                <img class="image" src="Image/Introductions/2.jpg">
+                                <img class="image" src="Image/Introductions/3.jpg">
+                                <img class="image" src="Image/Introductions/4.jpg">
+                                <img class="image" src="Image/Introductions/5.jpg">
+                                <img class="image" src="Image/Introductions/6.jpg">
+                                <img class="image" src="Image/Episode_1/1.jpg">
+                                <img class="image" src="Image/Episode_1/2.jpg">
+                                <img class="image" src="Image/Episode_1/3.jpg">
+                                <img class="image" src="Image/Episode_1/4.jpg">
+                                <img class="image" src="Image/Episode_1/5.jpg">
+                                <img class="image" src="Image/Episode_1/6.jpg">
+                                <img class="image" src="Image/Episode_1/7.jpg">
+                                <img class="image" src="Image/Episode_1/8.jpg">
+                                <img class="image" src="Image/Episode_1/9.jpg">
+                                <img class="image" src="Image/Episode_1/10.jpg">
+                                <img class="image" src="Image/Episode_2/1.jpg">
+                                <img class="image" src="Image/Episode_2/2.jpg">
+                                <img class="image" src="Image/Episode_2/3.jpg">
+                                <img class="image" src="Image/Episode_2/4.jpg">
+                                <img class="image" src="Image/Episode_2/5.jpg">
+                                <img class="image" src="Image/Episode_2/6.jpg">
+                                <img class="image" src="Image/Episode_2/7.jpg">
+                                <img class="image" src="Image/Episode_2/8.jpg">
+                                <img class="image" src="Image/Episode_2/9.jpg">
+                                <img class="image" src="Image/Episode_2/10.jpg">
+                                <img class="image" src="Image/Episode_3/1.jpg">
+                                <img class="image" src="Image/Episode_3/2.jpg">
+                                <img class="image" src="Image/Episode_3/3.jpg">
+                                <img class="image" src="Image/Episode_3/4.jpg">
+                                <img class="image" src="Image/Episode_3/5.jpg">
+                                <img class="image" src="Image/Episode_3/6.jpg">
+                                <img class="image" src="Image/Episode_3/7.jpg">
+                                <img class="image" src="Image/Episode_3/8.jpg">
+                                <img class="image" src="Image/Episode_3/9.jpg">
+                                <img class="image" src="Image/Episode_3/10.jpg">
+                                <img class="image" src="Image/Episode_4/1.jpg">
+                                <img class="image" src="Image/Episode_4/2.jpg">
+                                <img class="image" src="Image/Episode_4/3.jpg">
+                                <img class="image" src="Image/Episode_4/4.jpg">
+                                <img class="image" src="Image/Episode_4/5.jpg">
+                                <img class="image" src="Image/Episode_4/6.jpg">
+                                <img class="image" src="Image/Episode_4/7.jpg">
+                                <img class="image" src="Image/Episode_4/8.jpg">
+                                <img class="image" src="Image/Episode_4/9.jpg">
+                                <img class="image" src="Image/Episode_4/10.jpg">
+                                <img class="image" src="Image/Episode_5/1.jpg">
+                                <img class="image" src="Image/Episode_5/2.jpg">
+                                <img class="image" src="Image/Episode_5/3.jpg">
+                                <img class="image" src="Image/Episode_5/4.jpg">
+                                <img class="image" src="Image/Episode_5/5.jpg">
+                                <img class="image" src="Image/Episode_5/6.jpg">
+                                <img class="image" src="Image/Episode_6/1.jpg">
+                                <img class="image" src="Image/Episode_6/2.jpg">
+                                <img class="image" src="Image/Episode_6/3.jpg">
+                                <img class="image" src="Image/Episode_6/4.jpg">
+                                <img class="image" src="Image/Episode_6/5.jpg">
+                                <img class="image" src="Image/Episode_6/6.jpg">
+                                <img class="image" src="Image/Episode_6/7.jpg">
+                                <img class="image" src="Image/Episode_6/8.jpg">
+                                <img class="image" src="Image/Episode_6/9.jpg">
+                                <img class="image" src="Image/Episode_6/10.jpg">
+                                <img class="image" src="Image/Episode_7/1.jpg">
+                                <img class="image" src="Image/Episode_7/2.jpg">
+                                <img class="image" src="Image/Episode_7/3.jpg">
+                                <img class="image" src="Image/Episode_7/4.jpg">
+                                <img class="image" src="Image/Episode_7/5.jpg">
+                                <img class="image" src="Image/Episode_8/1.jpg">
+                                <img class="image" src="Image/Episode_8/2.jpg">
+                                <img class="image" src="Image/Episode_8/3.jpg">
+                                <img class="image" src="Image/Episode_8/4.jpg">
+                                <img class="image" src="Image/Episode_8/5.jpg">
+                                <img class="image" src="Image/Episode_8/6.jpg">
+                                <img class="image" src="Image/Episode_8/7.jpg">
+                                <img class="image" src="Image/Episode_8/8.jpg">
+                                <img class="image" src="Image/Episode_8/9.jpg">
+                                <img class="image" src="Image/Episode_8/10.jpg">
+                                <img class="image" src="Image/Episode_9/1.jpg">
+                                <img class="image" src="Image/Episode_9/2.jpg">
+                                <img class="image" src="Image/Episode_9/3.jpg">
+                                <img class="image" src="Image/Episode_9/4.jpg">
+                                <img class="image" src="Image/Episode_9/5.jpg">
+                                <img class="image" src="Image/Episode_9/6.jpg">
+                                <img class="image" src="Image/Episode_9/7.jpg">
+                                <img class="image" src="Image/Episode_9/8.jpg">
+                                <img class="image" src="Image/Episode_9/9.jpg">
+                                <img class="image" src="Image/Episode_9/10.jpg">
+                                <img class="image" src="Image/Episode_10/1.jpg">
+                                <img class="image" src="Image/Episode_10/2.jpg">
+                                <img class="image" src="Image/Episode_10/3.jpg">
+                                <img class="image" src="Image/Episode_10/4.jpg">
+                                <img class="image" src="Image/Episode_10/5.jpg">
+                                <img class="image" src="Image/Episode_10/6.jpg">
+                                <img class="image" src="Image/Episode_10/7.jpg">
+                                <img class="image" src="Image/Episode_10/8.jpg">
+                                <img class="image" src="Image/Episode_10/9.jpg">
+                                <img class="image" src="Image/Episode_10/10.jpg">
+                                <img class="image" src="Image/Episode_11/1.jpg">
+                                <img class="image" src="Image/Episode_11/2.jpg">
+                                <img class="image" src="Image/Episode_11/3.jpg">
+                                <img class="image" src="Image/Episode_11/4.jpg">
+                                <img class="image" src="Image/Episode_11/5.jpg">
+                                <img class="image" src="Image/Episode_11/6.jpg">
+                                <img class="image" src="Image/Episode_11/7.jpg">
+                                <img class="image" src="Image/Episode_11/8.jpg">
+                                <img class="image" src="Image/Episode_11/9.jpg">
+                                <img class="image" src="Image/Episode_11/10.jpg">
+                                <img class="image" src="Image/Bonus/1.jpg">
+                                <img class="image" src="Image/Bonus/2.jpg">
+                                <img class="image" src="Image/Bonus/3.jpg">
+                                <img class="image" src="Image/Bonus/4.jpg">
+                                <img class="image" src="Image/Bonus/5.jpg">
+                                <img class="image" src="Image/Bonus/6.jpg">
+                            </td>
+                            <td class="leftright">
+                                <button class="btn3" type="button" onclick="n_page()">&#x2192;</button>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="about">
+                <fieldset>
+                    <legend>About Us</legend>
+                    <p>Web Developer : Justin</p>
+                    <p>Web Designer : Justin</p>
+                    <p>Character Designer : Grace</p>
+                    <p>Authors : Grace, Jelita, Levina, Natalia, Sasa</p>
+                    <p>Version 1.0.11.6 beta</p>
+                    <table class="med">
+                        <tr>
+                            <td>
+                                <a href="https://wa.me/6281253774912" target="_blank">
+                                    <img class="soc" src="Image/Icon/WA.png">
+                                </a>
+                            </td>
+                            <td>
+                                <a href="https://www.instagram.com/gumiidoodles/" target="_blank">
+                                    <img class="soc" src="Image/Icon/IG.png">
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
+            </div>
+        </div>
+    </body>
+</html>

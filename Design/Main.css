@@ -1,0 +1,131 @@
+.eps{
+    padding : 5px 0px;
+    border-bottom : 2px dashed black;
+}
+
+.eps table{
+    margin-left : auto;
+    margin-right : auto;
+}
+
+.btn3:enabled{
+    font-family : calibri;
+    background-color : rgb(225, 225, 225);
+    width : 50px;
+    height : 50px;
+    border-radius : 50%;
+    border : none;
+    font-weight : bold;
+    font-size : 25px;
+    transition : transform 0.5s, box-shadow 0.5s, background-color 0.5s;
+}
+
+.btn3:disabled{
+    font-family : calibri;
+    background-color : rgb(225, 225, 225);
+    width : 50px;
+    height : 50px;
+    border-radius : 50%;
+    border : none;
+    font-weight : bold;
+    font-size : 25px;
+    transition : transform 0.5s;
+    opacity : 0.75;
+}
+
+.btn3:enabled:hover{
+    transform : scale(1.1);
+    box-shadow : 1px 1px 3px grey;
+}
+
+.btn3:enabled:active{
+    background-color : rgb(160, 160, 160);
+}
+
+.center{
+    width : 550px;
+    text-align : center;
+}
+
+.center h1{
+    letter-spacing : 1px;
+}
+
+.page{
+    margin-top : 35px;
+}
+
+.page table{
+    width : 100%;
+}
+
+.page table tr td{
+    vertical-align : middle;
+    text-align : center;
+}
+
+.leftright{
+    width : 5%;
+}
+
+.image{
+    display : none;
+    width : 450px;
+    height : 450px;
+    transition : transform 0.5s, box-shadow 0.5s;
+}
+
+.image:hover{
+    transform : scale(1.025);
+    box-shadow : 2px 2px 4px grey;
+}
+
+@media screen and (max-width : 700px){
+    .image{
+        width : 350px;
+        height : 350px;
+    }
+    .page{
+        margin-top : 75px;
+    }
+    .center{
+        width : 450px;
+    }
+    .center h1{
+        font-size : 27.5px;
+        letter-spacing : 0.5px;
+    }
+    .eps{
+        padding-top : 10px;
+    }
+    .btn3:enabled, .btn3:disabled{
+        width : 45px;
+        height : 45px;
+        font-size : 22.5px;
+    }
+}
+
+@media screen and (max-width : 550px){
+    .image{
+        width : 250px;
+        height : 250px;
+    }
+    .page{
+        margin-top : 100px;
+    }
+    .center{
+        width : 300px;
+    }
+    .center h1{
+        font-size : 20px;
+        letter-spacing : 0px;
+    }
+    .eps{
+        padding-top : 15px;
+    }
+    .btn3:enabled, .btn3:disabled{
+        width : 40px;
+        height : 40px;
+        font-size : 20px;
+    }
+}
