@@ -9,13 +9,18 @@
         <link rel="stylesheet" href="Design/Menu.css">
         <link rel="stylesheet" href="Design/Main.css">
         <link rel="stylesheet" href="Design/About.css">
+        <link rel="stylesheet" href="Design/Loading.css">
         <script src="Script/Slider.js"></script>
         <script src="Script/Switch.js"></script>
         <script src="Script/Switch_2.js"></script>
         <script src="Script/Color.js"></script>
+        <script src="Script/Loaded.js"></script>
     </head>
-    <body>
+    <body onload="loaded()">
         <div class="container">
+            <div class="loading">
+                <div class="loader"></div>
+            </div>
             <div class="menu">
                 <button class="btn1" type="button" onclick="to_main()" disabled>Main</button>
                 <button class="btn1" type="button" onclick="to_about()">About</button>
